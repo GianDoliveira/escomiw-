@@ -1,0 +1,5 @@
+.overlay::before {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 139, 0.5); /* Cor azul com 50% de opacidade */
+}
