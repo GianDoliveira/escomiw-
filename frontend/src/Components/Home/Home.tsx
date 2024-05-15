@@ -1,9 +1,9 @@
-import Carousel from "./Carousel";
+import {BannerImage, BannerInfo} from "./Carousel";
 
 function Home() {
     return (
         <>
-            <Carousel />
+            <BannerImage />
             <section className="w-screen text-center flex relative top-40 mb-40">
                 <div className="flex justify-center max-lg:flex-wrap items-center m-10">
                     <div className="my-10 lg:w-1/2">
@@ -45,6 +45,7 @@ function Home() {
                     </div>
                 </div>
             </section>
+            <BannerInfo/>
         </>
     )
 };
