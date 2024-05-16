@@ -19,7 +19,10 @@ function Navbar() {
             </div>
             <div className={`${isOpen ? 'block' : 'hidden'} w-full block flex-grow lg:flex lg:items-center lg:w-auto justify-end`}>
                 <ul className="text-sm ">
-                    <NavLink to="/docs" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
+                    <NavLink to="/" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
+                        Início
+                    </NavLink>
+                    <NavLink to="/sobre" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
                         Sobre nós
                     </NavLink>
                     <NavLink to="/examples" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
