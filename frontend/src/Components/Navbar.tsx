@@ -6,9 +6,9 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="w-full fixed z-10 flex items-center justify-between flex-wrap bg-blue-800 px-5 py-3">
+        <nav className="w-full fixed z-10 flex items-center justify-between flex-wrap bg-blue-800 px-2 py-1">
             <div className="flex items-center flex-shrink-0 text-white mr-6">
-                <img src="/logo 2.jpg" className="size-28" />
+                <img src="/srm1.png" className="size-44" />
             </div>
             <div className="block lg:hidden">
                 <div className={`nav-icon ${isOpen ? 'open' : ''}`} onClick={() => setIsOpen(!isOpen)}>

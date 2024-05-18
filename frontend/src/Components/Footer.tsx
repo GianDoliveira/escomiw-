@@ -2,11 +2,11 @@ import { FaInstagram, FaWhatsapp, FaYoutube } from "react-icons/fa";
 
 function Footer() {
     return (
-        <section className="text-white">
+        <footer className="text-white">
             <div className="w-screen text-center p-20 text-3xl bg-[#0F09A1]">
                 <h1>CONTATO</h1>
             </div>
-            <footer className="w-screen bg-[#080451] flex max-lg:flex-col lg:justify-between p-5 py-10 text-lg">
+            <div className="w-screen bg-[#080451] flex max-lg:flex-col lg:justify-between p-5 py-10 text-lg">
                 <div className="m-5">
                     <h1 className="text-4xl mb-5">Escomiw</h1>
                     <p>Rua Exemplo</p>
@@ -27,8 +27,8 @@ function Footer() {
                     <br />
                     <p>© 2024 por SRM</p>
                 </div>
-            </footer>
-        </section>
+            </div>
+        </footer>
     )
 }
 
