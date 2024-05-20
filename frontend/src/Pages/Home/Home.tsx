@@ -34,7 +34,7 @@ function Home() {
                     <div className="flex items-center justify-center bg-blue-900 bg-opacity-60">
                         <div className="text-center p-20">
                             <h1 className="text-3xl font-bold m-3">SOBRE</h1>
-                            <div className="text-justify px-20">
+                            <div className="text-justify lg:px-20">
                                 <p>A Secretaria Geral de Missões é um órgão da Igreja Metodista Wesleyana,
                                     instituído para executar os planos e programas da igreja,
                                     visando à salvação dos pecadores, a glorificação do Senhor Jesus Cristo
