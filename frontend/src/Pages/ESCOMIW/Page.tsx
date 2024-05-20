@@ -5,15 +5,13 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import styles from './page.module.css';
-
 // import required modules
 import { Pagination, Navigation } from 'swiper/modules';
 
 function Page() {
     return (
         <>
-            <section className="w-screen h-screen relative top-20 flex flex-col justify-center items-center ">
+            <section id='escomiw' className="w-screen h-screen relative top-20 flex flex-col justify-center items-center ">
                 <h1 className="text-center text-5xl font-bold mb-10 text-[#080451]">HISTÓRICO ESCOMIW</h1>
                 <div className="lg:w-1/2 h-96 px-20 py-5 lg:py-10 overflow-auto lg:border border-gray-400">
                     <p className="py-5 max-lg:text-3xl">Muito tempo atrás, em Vitória – ES, teve na Igreja Metodista Wesleyana início a um
@@ -79,7 +77,7 @@ function Page() {
                         prevEl: '.swiper-button-prev'
                     }}
                     modules={[Pagination, Navigation]}
-                    className={styles.swiper}
+                    className='lg:w-1/2'
                 >
                     <SwiperSlide>
                         <img src="./ESCOMIW1.JPG" alt="Equipe Missionário Regional" />

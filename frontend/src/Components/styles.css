@@ -7,3 +7,9 @@
   height: 25%;
   padding: 0 1.5rem;
 }
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}

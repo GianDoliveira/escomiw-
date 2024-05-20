@@ -1,12 +1,14 @@
 import { FaInstagram, FaWhatsapp, FaYoutube } from "react-icons/fa";
 
+import { NavLink } from "react-router-dom";
+
 function Footer() {
     return (
-        <footer className="text-white">
-            <div className="w-screen text-center p-20 text-3xl bg-[#0F09A1]">
+        <footer className="w-screen text-white">
+            <div className="text-center p-20 text-3xl bg-[#0F09A1]">
                 <h1>CONTATO</h1>
             </div>
-            <div className="w-screen bg-[#080451] flex max-lg:flex-col lg:justify-between p-5 py-10 text-lg">
+            <div className="bg-[#080451] flex max-lg:flex-col lg:justify-between p-5 py-10 text-lg">
                 <div className="m-5">
                     <h1 className="text-4xl mb-5">Escomiw</h1>
                     <p>Rua Exemplo</p>
@@ -20,7 +22,7 @@ function Footer() {
                 <div className="m-5">
                     <h1 className="text-4xl mb-5">SOCIAL</h1>
                     <div className="flex gap-1">
-                        <FaInstagram />
+                        <NavLink to="https://www.instagram.com/escomiw1regiaooficial/"><FaInstagram /></NavLink>
                         <FaWhatsapp />
                         <FaYoutube />
                     </div>

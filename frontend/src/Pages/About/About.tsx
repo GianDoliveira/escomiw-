@@ -1,7 +1,7 @@
 function About() {
     return (
         <>
-            <section className="w-screen h-screen relative flex flex-col justify-center items-center ">
+            <section id="sobre" className="w-screen h-screen relative flex flex-col justify-center items-center ">
                 <h1 className="text-center text-5xl font-bold mb-4 text-[#080451]">SOBRE</h1>
                 <div className="lg:w-1/2 h-96 px-20 py-5 lg:py-10 overflow-auto lg:border border-gray-400">
                     <p className="py-5 max-lg:text-3xl">A Secretaria Regional de Missões é o Órgão Regional instituído para executar os planos e

@@ -6,7 +6,7 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="w-full fixed z-10 flex items-center justify-between flex-wrap bg-blue-800 px-2 py-1">
+        <nav className="w-screen fixed z-10 flex items-center justify-between flex-wrap bg-blue-800 px-2 py-1">
             <div className="flex items-center flex-shrink-0 text-white mr-6">
                 <img src="/srm1.png" className="size-44" />
             </div>
@@ -18,7 +18,7 @@ function Navbar() {
                 </div>
             </div>
             <div className={`${isOpen ? 'block' : 'hidden'} w-full block flex-grow lg:flex lg:items-center lg:w-auto justify-end`}>
-                <ul className="text-sm ">
+                <ul className="text-sm p-2">
                     <NavLink to="/" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
                         Início
                     </NavLink>
