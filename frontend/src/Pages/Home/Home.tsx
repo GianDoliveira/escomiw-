@@ -30,7 +30,7 @@ function Home() {
                 </div>
             </section>
             <section className="w-screen text-white">
-                <div className="bg-[url('./wp7075534.jpg')] bg-center">
+                <div className="bg-[url('https://wallpapercave.com/wp/wp7075534.jpg')] bg-center">
                     <div className="flex items-center justify-center bg-blue-900 bg-opacity-60">
                         <div className="text-center p-20">
                             <h1 className="text-3xl font-bold m-3">SOBRE</h1>
