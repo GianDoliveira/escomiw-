@@ -4,6 +4,8 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
+import './styles.css';
+
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 export const BannerImage = () => {
@@ -21,7 +23,7 @@ export const BannerImage = () => {
                 }}
                 navigation={true}
                 modules={[Navigation, Autoplay, Pagination]}
-                className="mySwiper">
+                className="mySwiper1">
                 <SwiperSlide>
                     <img src="./modern-blue.jpg" alt="" className='w-full h-96' />
                 </SwiperSlide>

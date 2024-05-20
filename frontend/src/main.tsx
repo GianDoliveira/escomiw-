@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Home from './Pages/Home/Home.tsx';
 import About from './Pages/About/About.tsx';
+import Page from './Pages/ESCOMIW/Page.tsx';
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,8 @@ const router = createBrowserRouter([
     element: <App/>,
     children: [
       {path: "", element: <Home/>},
-      {path: "sobre", element: <About/>}
+      {path: "sobre", element: <About/>},
+      {path: "escomiw", element: <Page/>}
     ]
   },
 ]);

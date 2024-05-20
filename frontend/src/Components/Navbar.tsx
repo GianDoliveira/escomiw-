@@ -31,7 +31,7 @@ function Navbar() {
                     <NavLink to="/blog" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
                         Projeto PAI
                     </NavLink>
-                    <NavLink to="/blog" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
+                    <NavLink to="/escomiw" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
                         ESCOMIW
                     </NavLink>
                     <NavLink to="/blog" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
