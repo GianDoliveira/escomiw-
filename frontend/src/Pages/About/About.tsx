@@ -1,9 +1,9 @@
 function About() {
     return (
         <>
-            <section className="w-screen relative top-48 flex max-lg:flex-col justify-center items-center ">
-                <div className="lg:w-1/2 px-20 py-5 lg:py-40 overflow-auto lg:border border-gray-400">
-                    <h1 className="text-center text-5xl font-bold mb-4 text-[#080451]">SOBRE</h1>
+            <section className="w-screen h-screen relative flex flex-col justify-center items-center ">
+                <h1 className="text-center text-5xl font-bold mb-4 text-[#080451]">SOBRE</h1>
+                <div className="lg:w-1/2 h-96 px-20 py-5 lg:py-10 overflow-auto lg:border border-gray-400">
                     <p className="py-5 max-lg:text-3xl">A Secretaria Regional de Missões é o Órgão Regional instituído para executar os planos e
                         programas missionários da igreja, sendo responsável diretamente pela expansão das Igrejas
                         Wesleyanas no campo missionário da 1ª Região, no estado do Piauí, além de contribuir com o
@@ -61,14 +61,11 @@ function About() {
                     </p>
                     <p className="py-5 max-lg:text-3xl">Seja a resposta!</p>
                 </div>
-
-                <img src="./a.jpg" />
-
             </section>
-            <section className="relative top-72 w-screen h-screen">
+            <section className="w-screen flex relative bottom-14 justify-center items-center">
                 <div>
                     <h1 className="text-center text-5xl font-bold mb-4 text-[#080451]">NOSSA EQUIPE</h1>
-                    <img className="bg-center" src="./equipe srm.jpg" alt="Equipe Missionário Regional" />
+                    <img src="./equipe srm.jpg" alt="Equipe Missionário Regional" />
                 </div>
             </section>
         </>
