@@ -25,19 +25,19 @@ function Navbar() {
                     <NavLink to="/sobre" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
                         Sobre nós
                     </NavLink>
-                    <NavLink to="/examples" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
+                    <NavLink to="" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
                         Campo Missionário
                     </NavLink>
-                    <NavLink to="/blog" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
+                    <NavLink to="/projetopai" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
                         Projeto PAI
                     </NavLink>
                     <NavLink to="/escomiw" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
                         ESCOMIW
                     </NavLink>
-                    <NavLink to="/blog" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
+                    <NavLink to="" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
                         Agenda
                     </NavLink>
-                    <NavLink to="/blog" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
+                    <NavLink to="" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange-400 mr-4">
                         Como Ofertar
                     </NavLink>
                 </ul>
