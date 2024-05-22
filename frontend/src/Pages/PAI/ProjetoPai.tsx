@@ -1,4 +1,12 @@
-import "./styles.css"
+import "./styles.css";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+
+import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 function ProjetoPai() {
     return (
@@ -61,7 +69,7 @@ function ProjetoPai() {
                             <summary className="w-full px-8 py-4 text-left cursor-pointer font-bold text-gray-900">1. Quando a primeira região decidiu iniciar um trabalho específico para crianças no campo
                                 missionário no estado do Piauí?
                             </summary>
-                            <p className="answer px-8 pb-4">O pastor Wilson Martins Pacheco, em sua experiência cristão antes de ingressar na IMW observou um
+                            <p className="answer">O pastor Wilson Martins Pacheco, em sua experiência cristão antes de ingressar na IMW observou um
                                 trabalho voltado para crianças conforme o Projeto PAI, e a partir desta ideia inicial traçou uma estratégia
                                 parecida para a IMW Amarante. <br />
                                 Quando o pastor Wilson chegou no PIAUI (pastoreou a IMW Amarante entre 2013 a 2018) haviam poucas
@@ -89,26 +97,26 @@ function ProjetoPai() {
                         </details>
                         <details className="bg-white shadow-md rounded my-6">
                             <summary className="w-full px-8 py-4 text-left cursor-pointer font-bold text-gray-900">2. Qual o ano que o projeto PAI teve seu início?</summary>
-                            <p className="answer px-8 pb-4">O projeto PAI teve seu início oficialmente no dia 03 de outubro de 2015. Na oportunidade era ainda
+                            <p className="answer">O projeto PAI teve seu início oficialmente no dia 03 de outubro de 2015. Na oportunidade era ainda
                                 denominado como Projeto Criança para Cristo.
                             </p>
                         </details>
                         <details className="bg-white shadow-md rounded my-6">
                             <summary className="w-full px-8 py-4 text-left cursor-pointer font-bold text-gray-900">3. Quem era o bispo da primeira Região na oportunidade?</summary>
-                            <p className="answer px-8 pb-4">Naquela época, o bispo da Primeira Região Eclesiástica era o Reverendíssimo Bispo Elisiário, que apoiou
+                            <p className="answer">Naquela época, o bispo da Primeira Região Eclesiástica era o Reverendíssimo Bispo Elisiário, que apoiou
                                 a motivação do então pastor da IMW Amarante, pastor Wilson Martins Pacheco.
                             </p>
                         </details>
                         <details className="bg-white shadow-md rounded my-6">
                             <summary className="w-full px-8 py-4 text-left cursor-pointer font-bold text-gray-900">4. Quem era o secretário de missões da região?</summary>
-                            <p className="answer px-8 pb-4">
+                            <p className="answer">
                                 Pastor Josinei Salles era o Secretário de Missões Regional na oportunidade e, não mediu esforços em
                                 promover na Primeira Região o trabalho realizado no Piauí, buscando obter mantenedores para o Projeto.
                             </p>
                         </details>
                         <details className="bg-white shadow-md rounded my-6">
                             <summary className="w-full px-8 py-4 text-left cursor-pointer font-bold text-gray-900">5. Qual a principal motivação para implantar PAI?</summary>
-                            <p className="answer px-8 pb-4">
+                            <p className="answer">
                                 Na igreja de Amarante haviam poucas crianças, o filho do pastor Wilson, Lucas , que na época estava com
                                 com sete anos, logo fez amizade com as crianças da rua e começou a levá-los para a casa pastoral e
                                 consequentemente começaram a frequentar a igreja também. Isso começou a sensibilizar a igreja e,
@@ -121,7 +129,7 @@ function ProjetoPai() {
                         </details>
                         <details className="bg-white shadow-md rounded my-6">
                             <summary className="w-full px-8 py-4 text-left cursor-pointer font-bold text-gray-900">6. Quais foram os maiores desafios da implantação do PAI no Piauí?</summary>
-                            <p className="answer px-8 pb-4">
+                            <p className="answer">
                                 A escassez de recursos financeiros para atender a demanda de alimentação e outros investimentos para
                                 adequação de salas para o projeto. <br />
                                 Conforme o projeto foi se desenvolvendo percebeu-se a necessidade de implementar aulas de
@@ -139,7 +147,7 @@ function ProjetoPai() {
                             <summary className="w-full px-8 py-4 text-left cursor-pointer font-bold text-gray-900">7. Qual o momento mais marcante (em sua gestão como Secretário Regional de Missões) do
                                 desenvolvimento do PAI no campo missionário (igrejas ou congregações)?
                             </summary>
-                            <p className="answer px-8 pb-4">
+                            <p className="answer">
                                 O momento mais marcante foi a transferência do pastor Wilson para o RJ. Na despedida, uma das crianças
                                 assentou-se ao lado do pastor, recostou a cabeça no ombro do pastor, pegou 1 real e deu ao pastor como
                                 que se pedisse para ele ficar. <br />
@@ -156,6 +164,70 @@ function ProjetoPai() {
                         </details>
                     </div>
                 </div>
+            </section>
+            <section className="w-screen">
+                <Swiper
+                    effect={'coverflow'}
+                    grabCursor={true}
+                    centeredSlides={true}
+                    slidesPerView={'auto'}
+                    coverflowEffect={{
+                        rotate: 50,
+                        stretch: 0,
+                        depth: 100,
+                        modifier: 1,
+                        slideShadows: true,
+                    }}
+                    pagination={true}
+                    modules={[EffectCoverflow, Pagination]}
+                    className="mySwiperPai"
+                >
+                    <SwiperSlide>
+                        <img src="./projetopai1.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="./projetopai2.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="./projetopai3.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="./projetopai4.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="./projetopai5.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="./projetopai6.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="./projetopai7.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="./projetopai8.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="./projetopai9.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="./projetopai10.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="./projetopai11.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="./projetopai12.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="./projetopai13.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="./projetopai14.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="./projetopai15.jpg" />
+                    </SwiperSlide>
+                </Swiper>
             </section>
         </>
     )
