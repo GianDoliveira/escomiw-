@@ -6,7 +6,7 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="w-screen fixed z-10 flex items-center justify-between flex-wrap bg-blue-800 px-2 py-1">
+        <nav className="w-screen flex items-center justify-between flex-wrap bg-blue-800 px-2 py-1">
             <div className="flex items-center flex-shrink-0 text-white mr-6">
                 <img src="/srm1.png" className="size-44" />
             </div>
@@ -47,3 +47,6 @@ function Navbar() {
 }
 
 export default Navbar;
+
+
+

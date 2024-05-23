@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 function Footer() {
     return (
-        <footer className="w-screen text-white">
+        <footer className="w-screen absolute text-white">
             <div className="text-center p-20 text-3xl bg-[#0F09A1]">
                 <h1>CONTATO</h1>
             </div>
