@@ -5,7 +5,7 @@ function Home() {
     return (
         <main>
             <BannerImage />
-            <section className="w-screen text-center flex relative top-40 mb-40">
+            <section className="text-center flex relative top-40 mb-40">
                 <div className="flex justify-center max-lg:flex-wrap items-center m-10">
                     <div className="my-10 lg:w-1/2">
 
@@ -29,7 +29,7 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <section className="w-screen text-white">
+            <section className="text-white">
                 <div className="bg-[url('https://wallpapercave.com/wp/wp7075534.jpg')] bg-center">
                     <div className="flex items-center justify-center bg-blue-900 bg-opacity-60">
                         <div className="text-center p-20">

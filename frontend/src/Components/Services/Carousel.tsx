@@ -42,7 +42,7 @@ export const BannerImage = () => {
 };
 export const BannerInfo = () => {
     return (
-        <section className='text-center lg:w-full lg:h-96 max-lg:m-16 lg:m-40'>
+        <section className='text-center lg:h-96 max-lg:m-10 lg:m-40'>
             <h1 className='text-4xl pb-10 font-bold text-[#080451]'>DADOS</h1>
             <Swiper
                 navigation={true}
