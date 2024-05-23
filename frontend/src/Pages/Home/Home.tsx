@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
-import { BannerImage, BannerInfo } from "../../Components/Carousel";
+import { BannerImage, BannerInfo } from "../../Components/Services/Carousel";
 
 function Home() {
     return (
-        <>
+        <main>
             <BannerImage />
             <section className="w-screen text-center flex relative top-40 mb-40">
                 <div className="flex justify-center max-lg:flex-wrap items-center m-10">
@@ -58,7 +58,7 @@ function Home() {
                 </div>
             </section>
             <BannerInfo />
-        </>
+        </main>
     )
 };
 

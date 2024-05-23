@@ -1,10 +1,11 @@
 import 'animate.css';
+import { FadeInDown } from '../../Components/Services/ScrollAnimation';
 
 function About() {
     return (
         <>
             <main id="sobre">
-                <div className="flex flex-col justify-center items-center">
+                <section className="flex pt-56 flex-col justify-center items-center">
                     <h1 className="animate__animated animate__fadeInDown text-center text-5xl font-bold my-4 text-[#080451]">SOBRE</h1>
                     <div className="animate__animated animate__fadeInLeft lg:w-3/4 px-20 py-5 lg:py-10 border-gray-400">
                         <p className="py-5 max-lg:text-2xl">A Secretaria Regional de Missões é o Órgão Regional instituído para executar os planos e
@@ -64,13 +65,15 @@ function About() {
                         </p>
                         <p className="py-5 max-lg:text-2xl">Seja a resposta!</p>
                     </div>
-                </div>
+                </section>
             </main>
-            <main className="w-screen">
-                <div className="flex flex-col justify-center items-center">
-                    <h1 className="text-center text-5xl font-bold mb-4 text-[#080451]">NOSSA EQUIPE</h1>
-                    <img src="./equipe srm.jpg" alt="Equipe Missionário Regional" />
-                </div>
+            <main className="w-screen mb-10">
+                <FadeInDown>
+                    <div className="flex flex-col justify-center items-center">
+                        <h1 className="text-center text-5xl font-bold mb-4 text-[#080451]">NOSSA EQUIPE</h1>
+                        <img src="./equipe srm.jpg" alt="Equipe Missionário Regional" />
+                    </div>
+                </FadeInDown>
             </main>
         </>
     );
