@@ -1,7 +1,7 @@
 import { useRef, useEffect } from 'react';
 import 'animate.css';
 
-export const FadeInDown = ({ children }:any ) => {
+export const FadeInDown = ({ children }: any) => {
     const animatedElement = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
@@ -30,7 +30,7 @@ export const FadeInDown = ({ children }:any ) => {
     )
 }
 
-export const FadeInRight = ({ children }:any ) => {
+export const FadeInRight = ({ children }: any) => {
     const animatedElement = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
